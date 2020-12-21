@@ -50,6 +50,11 @@ a.list-group-item {
 .current-page{
 	color:#01579B;
 }
+
+a.list-group-item:hover{
+	color:#01579B;
+}
+
 @media (min-width: 768px) {
   #sidebar-wrapper {
     margin-left: 0;
