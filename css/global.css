@@ -53,7 +53,19 @@ a.list-group-item {
 
 a.list-group-item:hover{
 	color:#01579B;
+	background-color:#D1D1D1;
 }
+
+.carousel-item {
+	height: 40vh;
+	overflow: hidden;
+	width: 100%;
+}
+
+.carousel-item img {
+width: 100%;
+}
+
 
 @media (min-width: 768px) {
   #sidebar-wrapper {
