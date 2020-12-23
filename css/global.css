@@ -51,6 +51,19 @@ a.list-group-item {
 	color:#01579B;
 }
 
+.card-center{
+	margin-left: 12vw;
+	margin-right: 12vw;
+}
+@media (max-width: 480px) {
+    .card-center{
+		margin-left: 1vw !important;
+		margin-right: 1vw !important;
+	}
+
+}
+
+
 a.list-group-item:hover{
 	color:#01579B;
 	background-color:#D1D1D1;
@@ -63,9 +76,8 @@ a.list-group-item:hover{
 }
 
 .carousel-item img {
-width: 100%;
+	width: 100%;
 }
-
 
 @media (min-width: 768px) {
   #sidebar-wrapper {
@@ -80,4 +92,5 @@ width: 100%;
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
   }
+  
 }
