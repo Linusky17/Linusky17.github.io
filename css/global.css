@@ -59,10 +59,21 @@ a.list-group-left {
 	margin-left: 12vw;
 	margin-right: 12vw;
 }
+
+.home-center{
+		margin-left: 6vw;
+		margin-right: 6vw;
+}
+
+
 @media (max-width: 480px) {
     .card-center{
 		margin-left: 1vw !important;
 		margin-right: 1vw !important;
+	}
+	.home-center{
+		margin-left: 0vw !important;
+		margin-right: 0vw !important;
 	}
 
 }
