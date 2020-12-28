@@ -65,6 +65,12 @@ a.list-group-left {
 	margin-right: 6vw;
 }
 
+.tabbed
+{ 
+	display: inline-block; 
+	width: 10vw; 
+}
+
 
 @media (max-width: 480px) {
     .card-center{
@@ -74,6 +80,11 @@ a.list-group-left {
 	.home-center{
 		margin-left: 0vw !important;
 		margin-right: 0vw !important;
+	}
+	.tabbed
+	{ 
+		display: inline-block; 
+		width: 150px; 
 	}
 
 }
