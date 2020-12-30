@@ -127,9 +127,14 @@ a.list-group-item:hover{
   
 }
 img{
-image-rendering: -moz-crisp-edges; /* Firefox */
-image-rendering: -o-crisp-edges; /* Opera */
-image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
-image-rendering: crisp-edges;
--ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+	image-rendering: -moz-crisp-edges; /* Firefox */
+	image-rendering: -o-crisp-edges; /* Opera */
+	image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+	image-rendering: crisp-edges;
+	-ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
 }
+.carousel-caption {
+    left: 5%;
+    right: auto;
+}
+
